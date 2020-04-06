@@ -7,15 +7,9 @@
 </h2>
 <p align="center">
   <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/DebAmorim/dom_manipulation">
-
-  <img alt="Repository size" src="https://img.shields.io/github/repo-size/DebAmorim/dom_manipulation">
   
   <a href="https://github.com/DebAmorim/dom_manipulation/commits/master">
     <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/DebAmorim/dom_manipulation">
-  </a>
-
-  <a href="https://github.com/DebAmorim/dom_manipulation/issues">
-    <img alt="Repository issues" src="https://img.shields.io/github/issues/DebAmorim/dom_manipulation">
   </a>
 
 </p>
