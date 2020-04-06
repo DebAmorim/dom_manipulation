@@ -1,5 +1,5 @@
 <h1 align="center">
-    <img alt="DOM Manitulation" title="#dommanipulation" src="imagens/todo.gif" width="300px" />
+    <img alt="DOM Manitulation" title="#dommanipulation" src="App/imagens/todo.gif" width="300px" />
 </h1>
 
 <h2 align="center">
