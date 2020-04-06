@@ -1,0 +1,97 @@
+<html>
+    <head>
+        <title>Treinamento em JavaScript</title>
+    </head>
+
+    <body>
+                
+        <!--uma boa prática é deixar os elementos js como última coisa antes do fechamento do body
+        porque o html tem um carregamento vertical. Se ele estiver antes, pode acabar tentando acessar
+        algo ainda não criado no DOM.-->
+            <Text>Exercício 1</Text>
+
+        <script>
+
+            console.log('Exercício 1');
+            var endereco = {
+                rua: "Rua dos pinheiros",
+                numero: 1293,
+                bairro: "Centro",
+                cidade: "São Paulo",
+                uf: "SP"
+            };
+
+            retornaEndereco(endereco);
+
+            function retornaEndereco( endereco ){
+                var enderecoCompleto = "O usuário mora em " + endereco.cidade + "/" + endereco.uf + ", no bairro " + endereco.bairro + ".";
+                console.log(enderecoCompleto);  
+            }
+
+            
+            console.log('Exercício 2');
+
+            var x=32, y=321;
+
+            var pares = [];
+
+            retornaNumerosPares(x,y);
+
+            function retornaNumerosPares(n1, n2){
+                while(n1<=n2){
+
+                    if(n1%2 == 0){
+                        pares.push(n1);
+                        
+                    }
+
+                    n1 +=1;
+
+                }
+               
+                console.log(pares);
+            }
+
+
+            console.log('Exercício 3');
+            
+            //vetor de habilidades
+            var skills = ["Javascript", "ReactJS", "React Native"];
+            //habilidade de interesse
+            var skill = "Javascript";
+            
+            var temSkill = skills.indexOf(skill);
+
+            console.log(temHabilidade(temSkill));
+
+            function temHabilidade(temSkill){
+                return (temSkill != -1) ? true : false;
+            }
+
+            console.log('Exercício 4');
+
+            anosEstudoUsuario = 18;
+
+            experienciaUsuario = experiencia(anosEstudoUsuario);
+
+            function experiencia(anosEstudo){
+                debugger;
+                switch (anosEstudo) {
+                    case 1:
+                        return 'Iniciante';
+                    case 3:
+                        return 'Intermediário';
+                    case 6:
+                        return 'Avançado';
+                    case 18:
+                        return 'Jedi Master';
+                    default:
+                        return 'Não estudou';
+                }
+            }
+
+            console.log('Experiência: ', experienciaUsuario);
+           
+        </script>
+    </body>
+</html>
